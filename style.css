@@ -11,6 +11,15 @@
     height: 500px;
 }
 
+@media screen and (max-width: 500) {
+  .card{
+     margin-top: 7%;
+    box-shadow: 5px 5px 20px -8px gray;
+    width: 500px;
+    height: 600px;
+  }
+}
+
 label{
     margin: 15px;
     font-size: 1em;
