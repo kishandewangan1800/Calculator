@@ -32,9 +32,8 @@ input, select, #answer{
 
 @media screen and (max-width : 500px) {
     .container{
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
+        display: flexbox;
+        justify-content: center;
     }
 
     label{
